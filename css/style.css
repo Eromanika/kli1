@@ -1142,9 +1142,19 @@ body {
     .search-input input {
       padding-right: 50px;
     }
-    .search-block {
-      margin-right: -30px;
-      margin-left: -30px;
+    .row.search-block {
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    .input-group-btn {
+      padding-left: 0;
+    }
+    .search-input,
+    .subscribe-input {
+      padding-right: 0;
+    }
+    .subscribe-field {
+      margin-left: 0;
     }
     .main-slider {
       display: none;
