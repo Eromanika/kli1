@@ -982,10 +982,13 @@ body {
 /* end BREADCRUMPS */
 
 .category-banner {
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  position: relative;
+    width: 100%;
+    margin-top: 30px;
+    height: 145px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 0 30px 30px 0;
 }
 .category-banner-flex {
   position: absolute;
@@ -998,6 +1001,7 @@ body {
 }
 .category-banner img {
   width: 100%;
+  filter: brightness(0.8);
 }
 .category-banner-decr,
 .category-name {
@@ -1251,6 +1255,14 @@ body {
     .product-item-image {
       width: 49%;
       height: auto;
+    }
+    .category-banner {
+      border-radius: 0;
+      height: 170px;
+    }
+    .category-banner-decr {
+      padding-left: 10px;
+      padding-right: 10px;
     }
 } 
 @media screen and (max-width: 600px) {
